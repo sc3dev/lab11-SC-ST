@@ -13,9 +13,9 @@ class TestCalculator(unittest.TestCase):
 
     # def test_subtract(self): # 3 assertions
     def test_subtract(self):
-        self.assertAlmostEqual(sub(4, 4), 0)
-        self.assertAlmostEqual(sub(3.5, 7.6), -4.1)
-        self.assertAlmostEqual(sub(-10.1, -10.7), 0.6)
+        self.assertAlmostEqual(subtract(4, 4), 0)
+        self.assertAlmostEqual(subtract(3.5, 7.6), -4.1)
+        self.assertAlmostEqual(subtract(-10.1, -10.7), 0.6)
     # ##########################
 
     ######## Partner 1
