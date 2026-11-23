@@ -20,8 +20,8 @@ def div(a, b):
         raise ZeroDivisionError
     return b/a
 
-def log(a, b):
-    if a < 0 or b < 0:
+def logarithm(a, b):
+    if a < 0 or a == 1 or b < 0:
         raise ValueError
     return log(b, a)
 
