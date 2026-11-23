@@ -1,3 +1,6 @@
+# https://github.com/sc3dev/lab11-SC-ST
+# Partner 1: Sullivan Christ
+# Partner 2: Sullivan Christ
 from math import log, sqrt, hypot
 """
 calculator.py
@@ -9,10 +12,10 @@ One function per operation, in order.
 def add(a, b): 
     return a + b
 
-def subtract(a, b):
+def sub(a, b):
     return a - b
 
-def multiply(a, b):
+def mul(a, b):
     return a * b
 
 def div(a, b):
@@ -25,7 +28,7 @@ def logarithm(a, b):
         raise ValueError
     return log(b, a)
 
-def exponent(a, b):
+def exp(a, b):
     return a**b
 
 def square_root(a):

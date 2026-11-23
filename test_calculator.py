@@ -1,3 +1,6 @@
+# https://github.com/sc3dev/lab11-SC-ST
+# Partner 1: Sullivan Christ
+# Partner 2: Sullivan Christ
 import unittest
 from calculator import *
 
@@ -10,16 +13,16 @@ class TestCalculator(unittest.TestCase):
 
     # def test_subtract(self): # 3 assertions
     def test_subtract(self):
-        self.assertAlmostEqual(subtract(4, 4), 0)
-        self.assertAlmostEqual(subtract(3.5, 7.6), -4.1)
-        self.assertAlmostEqual(subtract(-10.1, -10.7), 0.6)
+        self.assertAlmostEqual(sub(4, 4), 0)
+        self.assertAlmostEqual(sub(3.5, 7.6), -4.1)
+        self.assertAlmostEqual(sub(-10.1, -10.7), 0.6)
     # ##########################
 
     ######## Partner 1
     def test_multiply(self): # 3 assertions
-        self.assertAlmostEqual(multiply(6, 7), 42)
-        self.assertAlmostEqual(multiply(0, -77777.3123123), 0)
-        self.assertAlmostEqual(multiply(-10, -4.3), 43)
+        self.assertAlmostEqual(mul(6, 7), 42)
+        self.assertAlmostEqual(mul(0, -77777.3123123), 0)
+        self.assertAlmostEqual(mul(-10, -4.3), 43)
 
     def test_divide(self): # 3 assertions
         self.assertAlmostEqual(div(2, 3), 1.5)
