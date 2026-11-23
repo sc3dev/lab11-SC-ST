@@ -1,4 +1,4 @@
-from math import log
+from math import log, sqrt, hypot
 """
 calculator.py
 - Defines functions used to create a simple calculator
@@ -15,6 +15,11 @@ def subtract(a, b):
 def multiply(a, b):
     return a * b
 
+def div(a, b):
+    if a == 0:
+        raise ZeroDivisionError
+    return b/a
+
 def log(a, b):
     if a < 0 or b < 0:
         raise ValueError
@@ -22,3 +27,11 @@ def log(a, b):
 
 def exponent(a, b):
     return a**b
+
+def square_root(a):
+    if a < 0:
+        raise ValueError
+    return sqrt(a)
+
+def hypotenuse(a, b):
+    return hypot(a, b)
